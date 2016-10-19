@@ -21,7 +21,7 @@ data:extend(
     ingredients =
     {
 	  {"roboport-mk2", 1},
-      {"titanium-plate", 100},
+      {"titanium-alloy", 100},
       {"radar", 1},
       {"processing-unit", 50}
     },

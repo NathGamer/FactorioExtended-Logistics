@@ -96,6 +96,8 @@ data:extend({
     recharging_light = {intensity = 0.4, size = 5},
     request_to_open_door_timeout = 15,
     spawn_and_station_height = -0.1,
+    draw_logistic_radius_visualization = true,
+    draw_construction_radius_visualization = true,
     open_door_trigger_effect =
     {
       {
@@ -110,6 +112,25 @@ data:extend({
         sound = { filename = "__base__/sound/roboport-door.ogg", volume = 0.75 }
       },
     },
+	circuit_wire_connection_point =
+    {
+      shadow =
+      {
+        red = {1.17188, 1.98438},
+        green = {1.04688, 2.04688}
+      },
+      wire =
+      {
+        red = {0.78125, 1.375},
+        green = {0.78125, 1.53125}
+      }
+    },
+    circuit_connector_sprites = get_circuit_connector_sprites({0.59375, 1.3125}, nil, 18),
+    circuit_wire_max_distance = 7.5,
+    default_available_logistic_output_signal = "signal-X",
+    default_total_logistic_output_signal = "signal-Y",
+    default_available_construction_output_signal = "signal-Z",
+    default_total_construction_output_signal = "signal-T",
   },
   {
     type = "roboport",
@@ -208,6 +229,8 @@ data:extend({
     recharging_light = {intensity = 0.4, size = 5},
     request_to_open_door_timeout = 15,
     spawn_and_station_height = -0.1,
+    draw_logistic_radius_visualization = true,
+    draw_construction_radius_visualization = true,
     open_door_trigger_effect =
     {
       {
@@ -222,6 +245,25 @@ data:extend({
         sound = { filename = "__base__/sound/roboport-door.ogg", volume = 0.75 }
       },
     },
+	circuit_wire_connection_point =
+    {
+      shadow =
+      {
+        red = {1.17188, 1.98438},
+        green = {1.04688, 2.04688}
+      },
+      wire =
+      {
+        red = {0.78125, 1.375},
+        green = {0.78125, 1.53125}
+      }
+    },
+    circuit_connector_sprites = get_circuit_connector_sprites({0.59375, 1.3125}, nil, 18),
+    circuit_wire_max_distance = 7.5,
+    default_available_logistic_output_signal = "signal-X",
+    default_total_logistic_output_signal = "signal-Y",
+    default_available_construction_output_signal = "signal-Z",
+    default_total_construction_output_signal = "signal-T",
   },
   
   
