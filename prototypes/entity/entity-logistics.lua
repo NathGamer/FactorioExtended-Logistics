@@ -1,3 +1,6 @@
+-- extend stock roboport, adding the fast-change group.
+data.raw.roboport["roboport"].fast_replaceable_group = "roboport"
+
 data:extend({
   {
     type = "roboport",
@@ -23,13 +26,14 @@ data:extend({
     charging_energy = "2000kW",
     logistics_radius = 37.5,
     construction_radius = 75,
-    charge_approach_distance = 5,
+    charge_approach_distance = 7,
     robot_slots_count = 7,
     material_slots_count = 7,
     stationing_offset = {0, 0},
     charging_offsets =
     {
       {-1.5, -0.5}, {1.5, -0.5}, {1.5, 1.5}, {-1.5, 1.5},
+      {-2.5, -1.5}, {2.5, -1.5}, {2.5, 2.5}, {-2.5, 2.5},
     },
     base =
     {
@@ -131,6 +135,7 @@ data:extend({
     default_total_logistic_output_signal = "signal-Y",
     default_available_construction_output_signal = "signal-Z",
     default_total_construction_output_signal = "signal-T",
+    fast_replaceable_group = "roboport",
   },
   {
     type = "roboport",
@@ -156,13 +161,15 @@ data:extend({
     charging_energy = "3000kW",
     logistics_radius = 50,
     construction_radius = 100,
-    charge_approach_distance = 5,
+    charge_approach_distance = 9,
     robot_slots_count = 7,
     material_slots_count = 7,
     stationing_offset = {0, 0},
     charging_offsets =
     {
       {-1.5, -0.5}, {1.5, -0.5}, {1.5, 1.5}, {-1.5, 1.5},
+      {-2.5, -1.5}, {2.5, -1.5}, {2.5, 2.5}, {-2.5, 2.5},
+      {-3.5, -2.5}, {3.5, -2.5}, {3.5, 3.5}, {-3.5, 3.5},
     },
     base =
     {
@@ -264,6 +271,7 @@ data:extend({
     default_total_logistic_output_signal = "signal-Y",
     default_available_construction_output_signal = "signal-Z",
     default_total_construction_output_signal = "signal-T",
+    fast_replaceable_group = "roboport",
   },
   
   
