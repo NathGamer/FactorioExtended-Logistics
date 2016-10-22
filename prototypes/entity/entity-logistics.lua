@@ -1,5 +1,5 @@
 -- extend stock roboport, adding the fast-change group.
-data.raw.accumulator["accumulator"].fast_replaceable_group = "roboport"
+data.raw.roboport["roboport"].fast_replaceable_group = "roboport"
 
 data:extend({
   {
