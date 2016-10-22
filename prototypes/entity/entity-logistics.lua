@@ -1,3 +1,6 @@
+-- extend stock roboport, adding the fast-change group.
+data.raw.accumulator["accumulator"].fast_replaceable_group = "roboport"
+
 data:extend({
   {
     type = "roboport",
@@ -132,6 +135,7 @@ data:extend({
     default_total_logistic_output_signal = "signal-Y",
     default_available_construction_output_signal = "signal-Z",
     default_total_construction_output_signal = "signal-T",
+    fast_replaceable_group = "roboport",
   },
   {
     type = "roboport",
@@ -267,6 +271,7 @@ data:extend({
     default_total_logistic_output_signal = "signal-Y",
     default_available_construction_output_signal = "signal-Z",
     default_total_construction_output_signal = "signal-T",
+    fast_replaceable_group = "roboport",
   },
   
   
