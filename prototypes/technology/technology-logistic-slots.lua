@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "character-logistic-slots-6",
     icon = "__base__/graphics/technology/character-logistic-slots.png",
+    prerequisites = {"character-logistic-slots-5", "titanium-processing"},
     effects =
     {
       {
@@ -11,7 +12,6 @@ data:extend(
         modifier = 5
       }
     },
-    prerequisites = {"character-logistic-slots-5"},
     unit =
     {
       count = 50,
@@ -20,7 +20,7 @@ data:extend(
         {"science-pack-1", 1},
         {"science-pack-2", 1},
         {"science-pack-3", 1},
-        {"alien-science-pack", 1}
+        {"production-science-pack", 1}
       },
       time = 30
     },
@@ -31,6 +31,7 @@ data:extend(
     type = "technology",
     name = "character-logistic-slots-7",
     icon = "__base__/graphics/technology/character-logistic-slots.png",
+    prerequisites = {"character-logistic-slots-6"},
     effects =
     {
       {
@@ -38,7 +39,6 @@ data:extend(
         modifier = 5
       }
     },
-    prerequisites = {"character-logistic-slots-6"},
     unit =
     {
       count = 50,
@@ -47,7 +47,7 @@ data:extend(
         {"science-pack-1", 1},
         {"science-pack-2", 1},
         {"science-pack-3", 1},
-        {"alien-science-pack", 1}
+        {"production-science-pack", 1}
       },
       time = 30
     },
@@ -74,7 +74,7 @@ data:extend(
         {"science-pack-1", 1},
         {"science-pack-2", 1},
         {"science-pack-3", 1},
-        {"alien-science-pack", 1}
+        {"production-science-pack", 1}
       },
       time = 30
     },
@@ -101,7 +101,7 @@ data:extend(
         {"science-pack-1", 1},
         {"science-pack-2", 1},
         {"science-pack-3", 1},
-        {"alien-science-pack", 1}
+        {"production-science-pack", 1}
       },
       time = 30
     },
@@ -128,7 +128,7 @@ data:extend(
         {"science-pack-1", 1},
         {"science-pack-2", 1},
         {"science-pack-3", 1},
-        {"alien-science-pack", 1}
+        {"production-science-pack", 1}
       },
       time = 30
     },
