@@ -2,10 +2,10 @@ data:extend(
 {
   {
     type = "technology",
-    name = "logistical-engineer-1",
-    icon = "__FactorioExtended-Core__/graphics/technology/logistical-engineer.png",
-	icon_size = 128,
-	prerequisites = {"robotics"},
+    name = "logistic-robotics-2",
+    icon = "__base__/graphics/technology/logistic-robotics.png",
+    icon_size = 128,
+	  prerequisites = {"robotics", "logistic-robotics"},
     effects =
     {
       {
@@ -40,10 +40,10 @@ data:extend(
   },
   {
     type = "technology",
-    name = "logistical-engineer-2",
-    icon = "__FactorioExtended-Core__/graphics/technology/logistical-engineer.png",
-	icon_size = 128,
-	prerequisites = {"logistical-engineer-1"},
+    name = "logistic-robotics-3",
+    icon = "__base__/graphics/technology/logistic-robotics.png",
+    icon_size = 128,
+	  prerequisites = {"logistic-robotics-2", "titanium-processing"},
     effects =
     {
       {
