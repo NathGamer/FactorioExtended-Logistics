@@ -1,8 +1,11 @@
+require ("circuit-connector-generated-definitions")
+
 data:extend({
   {
     type = "roboport",
     name = "roboport-mk2",
     icon = "__FactorioExtended-Logistics__/graphics/icons/roboport-mk2.png",
+    icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "roboport-mk2"},
     max_health = 750,
@@ -112,7 +115,7 @@ data:extend({
         sound = { filename = "__base__/sound/roboport-door.ogg", volume = 0.75 }
       },
     },
-	circuit_wire_connection_point =
+	 circuit_wire_connection_point =
     {
       shadow =
       {
@@ -125,7 +128,8 @@ data:extend({
         green = {0.78125, 1.53125}
       }
     },
-    circuit_connector_sprites = get_circuit_connector_sprites({0.59375, 1.3125}, nil, 18),
+    circuit_wire_connection_point = circuit_connector_definitions["roboport"].points,
+    circuit_connector_sprites = circuit_connector_definitions["roboport"].sprites,
     circuit_wire_max_distance = 7.5,
     default_available_logistic_output_signal = {type = "virtual", name = "signal-X"},
     default_total_logistic_output_signal = {type = "virtual", name = "signal-Y"},
@@ -136,6 +140,7 @@ data:extend({
     type = "roboport",
     name = "roboport-mk3",
     icon = "__FactorioExtended-Logistics__/graphics/icons/roboport-mk3.png",
+    icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "roboport-mk3"},
     max_health = 1000,
@@ -245,7 +250,7 @@ data:extend({
         sound = { filename = "__base__/sound/roboport-door.ogg", volume = 0.75 }
       },
     },
-	circuit_wire_connection_point =
+	 circuit_wire_connection_point =
     {
       shadow =
       {
@@ -258,7 +263,8 @@ data:extend({
         green = {0.78125, 1.53125}
       }
     },
-    circuit_connector_sprites = get_circuit_connector_sprites({0.59375, 1.3125}, nil, 18),
+    circuit_wire_connection_point = circuit_connector_definitions["roboport"].points,
+    circuit_connector_sprites = circuit_connector_definitions["roboport"].sprites,
     circuit_wire_max_distance = 7.5,
     default_available_logistic_output_signal = {type = "virtual", name = "signal-X"},
     default_total_logistic_output_signal = {type = "virtual", name = "signal-Y"},
@@ -271,6 +277,7 @@ data:extend({
     type = "logistic-robot",
     name = "logistic-robot-mk2",
     icon = "__FactorioExtended-Logistics__/graphics/icons/logistic-robot-mk2.png",
+    icon_size = 32,
     flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
     minable = {hardness = 0.1, mining_time = 0.1, result = "logistic-robot-mk2"},
     resistances = { { type = "fire", percent = 90 } },
@@ -386,6 +393,7 @@ data:extend({
     type = "construction-robot",
     name = "construction-robot-mk2",
     icon = "__FactorioExtended-Logistics__/graphics/icons/construction-robot-mk2.png",
+    icon_size = 32,
     flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
     minable = {hardness = 0.1, mining_time = 0.1, result = "construction-robot-mk2"},
     resistances = { { type = "fire", percent = 90 } },

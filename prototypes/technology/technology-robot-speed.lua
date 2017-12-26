@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "worker-robots-speed-6",
     icon = "__base__/graphics/technology/worker-robots-speed.png",
+    icon_size = 128,
     prerequisites = {"worker-robots-speed-5", "titanium-processing"},
     effects = {
       {
@@ -28,6 +29,7 @@ data:extend(
     type = "technology",
     name = "worker-robots-speed-7",
     icon = "__base__/graphics/technology/worker-robots-speed.png",
+    icon_size = 128,
     prerequisites = {"worker-robots-speed-6"},
     effects = {
       {
@@ -52,6 +54,7 @@ data:extend(
     type = "technology",
     name = "worker-robots-speed-8",
     icon = "__base__/graphics/technology/worker-robots-speed.png",
+    icon_size = 128,
     prerequisites = {"worker-robots-speed-7"},
     effects = {
       {
@@ -76,6 +79,7 @@ data:extend(
     type = "technology",
     name = "worker-robots-speed-9",
     icon = "__base__/graphics/technology/worker-robots-speed.png",
+    icon_size = 128,
     prerequisites = {"worker-robots-speed-8"},
     effects = {
       {
@@ -100,6 +104,7 @@ data:extend(
     type = "technology",
     name = "worker-robots-speed-10",
     icon = "__base__/graphics/technology/worker-robots-speed.png",
+    icon_size = 128,
     prerequisites = {"worker-robots-speed-9"},
     effects = {
       {
@@ -124,6 +129,7 @@ data:extend(
     type = "technology",
     name = "worker-robots-speed-11",
     icon = "__base__/graphics/technology/worker-robots-speed.png",
+    icon_size = 128,
     prerequisites = {"worker-robots-speed-10"},
     effects = {
       {

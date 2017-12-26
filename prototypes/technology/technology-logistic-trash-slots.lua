@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "character-logistic-trash-slots-3",
     icon = "__base__/graphics/technology/character-logistic-trash-slots.png",
+    icon_size = 128,
     prerequisites = {"character-logistic-trash-slots-2", "titanium-processing"},
     effects =
     {
@@ -30,6 +31,7 @@ data:extend(
     type = "technology",
     name = "character-logistic-trash-slots-4",
     icon = "__base__/graphics/technology/character-logistic-trash-slots.png",
+    icon_size = 128,
     prerequisites = {"character-logistic-trash-slots-3"},
     effects =
     {
