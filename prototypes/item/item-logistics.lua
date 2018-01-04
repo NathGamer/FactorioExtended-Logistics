@@ -1,4 +1,5 @@
-data:extend({
+data:extend(
+{
   {
     type = "item",
     name = "roboport-mk2",
@@ -21,8 +22,6 @@ data:extend({
     place_result = "roboport-mk3",
     stack_size = 5
   },
-  
-  
   {
     type = "item",
     name = "logistic-robot-mk2",

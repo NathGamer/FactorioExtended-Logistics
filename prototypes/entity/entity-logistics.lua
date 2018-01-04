@@ -1,6 +1,7 @@
 require ("circuit-connector-generated-definitions")
 
-data:extend({
+data:extend(
+{
   {
     type = "roboport",
     name = "roboport-mk2",
@@ -115,7 +116,7 @@ data:extend({
         sound = { filename = "__base__/sound/roboport-door.ogg", volume = 0.75 }
       },
     },
-	 circuit_wire_connection_point =
+    circuit_wire_connection_point =
     {
       shadow =
       {
@@ -250,7 +251,7 @@ data:extend({
         sound = { filename = "__base__/sound/roboport-door.ogg", volume = 0.75 }
       },
     },
-	 circuit_wire_connection_point =
+    circuit_wire_connection_point =
     {
       shadow =
       {
@@ -271,8 +272,6 @@ data:extend({
     default_available_construction_output_signal = {type = "virtual", name = "signal-Z"},
     default_total_construction_output_signal = {type = "virtual", name = "signal-T"},
   },
-  
-  
   {
     type = "logistic-robot",
     name = "logistic-robot-mk2",

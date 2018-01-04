@@ -1,4 +1,4 @@
-data:extend(
+--[[data:extend(
 {
   {
     type = "technology",
@@ -150,4 +150,4 @@ data:extend(
     upgrade = "true",
     order = "c-k-f-k"
   }
-})
+})--]]

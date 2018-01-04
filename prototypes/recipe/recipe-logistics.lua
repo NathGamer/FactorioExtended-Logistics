@@ -20,7 +20,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-	  {"roboport-mk2", 1},
+      {"roboport-mk2", 1},
       {"titanium-alloy", 100},
       {"radar", 1},
       {"processing-unit", 50}
@@ -28,8 +28,6 @@ data:extend(
     result = "roboport-mk3",
     energy_required = 15
   },
-  
-  
   {
     type = "recipe",
     name = "logistic-robot-mk2",
@@ -38,9 +36,9 @@ data:extend(
     {
       {"logistic-robot", 1},
       {"processing-unit", 2},
-	  {"effectivity-module", 1},
-	  {"speed-module", 1},
-	  {"battery-equipment", 1}
+      {"effectivity-module", 1},
+      {"speed-module", 1},
+      {"battery-equipment", 1}
     },
     result = "logistic-robot-mk2"
   },
@@ -52,9 +50,9 @@ data:extend(
     {
       {"construction-robot", 1},
       {"processing-unit", 2},
-	  {"effectivity-module", 1},
-	  {"speed-module", 1},
-	  {"battery-equipment", 1}
+      {"effectivity-module", 1},
+      {"speed-module", 1},
+      {"battery-equipment", 1}
     },
     result = "construction-robot-mk2"
   }

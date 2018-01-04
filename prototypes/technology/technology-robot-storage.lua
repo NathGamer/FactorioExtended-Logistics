@@ -6,15 +6,18 @@ data:extend(
     icon = "__base__/graphics/technology/worker-robots-storage.png",
     icon_size = 128,
     prerequisites = {"worker-robots-storage-3", "titanium-processing"},
-    effects = {
+    effects = 
+    {
       {
         type = "worker-robot-storage",
         modifier = "1"
       }
     },
-    unit = {
+    unit = 
+    {
       count = 450,
-      ingredients = {
+      ingredients = 
+      {
         {"production-science-pack", 1},
         {"science-pack-1", 1},
         {"science-pack-2", 1},
@@ -31,15 +34,18 @@ data:extend(
     icon = "__base__/graphics/technology/worker-robots-storage.png",
     icon_size = 128,
     prerequisites = {"worker-robots-storage-4"},
-    effects = {
+    effects = 
+    {
       {
         type = "worker-robot-storage",
         modifier = "1"
       }
     },
-    unit = {
+    unit = 
+    {
       count = 500,
-      ingredients = {
+      ingredients = 
+      {
         {"production-science-pack", 1},
         {"science-pack-1", 1},
         {"science-pack-2", 1},
@@ -56,15 +62,18 @@ data:extend(
     icon = "__base__/graphics/technology/worker-robots-storage.png",
     icon_size = 128,
     prerequisites = {"worker-robots-storage-5"},
-    effects = {
+    effects =
+    {
       {
         type = "worker-robot-storage",
         modifier = "1"
       }
     },
-    unit = {
+    unit =
+    {
       count = 600,
-      ingredients = {
+      ingredients =
+      {
         {"production-science-pack", 1},
         {"science-pack-1", 1},
         {"science-pack-2", 1},
@@ -81,15 +90,18 @@ data:extend(
     icon = "__base__/graphics/technology/worker-robots-storage.png",
     icon_size = 128,
     prerequisites = {"worker-robots-storage-6"},
-    effects = {
+    effects =
+    {
       {
         type = "worker-robot-storage",
         modifier = "1"
       }
     },
-    unit = {
+    unit =
+    {
       count = 750,
-      ingredients = {
+      ingredients =
+      {
         {"production-science-pack", 1},
         {"science-pack-1", 1},
         {"science-pack-2", 1},
@@ -106,15 +118,18 @@ data:extend(
     icon = "__base__/graphics/technology/worker-robots-storage.png",
     icon_size = 128,
     prerequisites = {"worker-robots-storage-7"},
-    effects = {
+    effects =
+    {
       {
         type = "worker-robot-storage",
         modifier = "1"
       }
     },
-    unit = {
+    unit =
+    {
       count = 1000,
-      ingredients = {
+      ingredients =
+      {
         {"production-science-pack", 1},
         {"science-pack-1", 1},
         {"science-pack-2", 1},
@@ -131,15 +146,18 @@ data:extend(
     icon = "__base__/graphics/technology/worker-robots-storage.png",
     icon_size = 128,
     prerequisites = {"worker-robots-storage-8"},
-    effects = {
+    effects =
+    {
       {
         type = "worker-robot-storage",
         modifier = "1"
       }
     },
-    unit = {
+    unit =
+    {
       count = 1250,
-      ingredients = {
+      ingredients =
+      {
         {"production-science-pack", 1},
         {"science-pack-1", 1},
         {"science-pack-2", 1},
